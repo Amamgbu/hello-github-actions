@@ -1,6 +1,5 @@
 name: A workflow for my Hello World file
 on: push
-<<<<<<< HEAD
 jobs:
   build:
     name: Hello world action
@@ -10,5 +9,3 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
-=======
->>>>>>> 0190fb7bf547861b0076a06464ce1146fba34d8d
